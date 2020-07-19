@@ -1,6 +1,18 @@
 h1{
     color: blue;
+    font-family: sofia-pro-soft, sans-serif;
+font-style: normal;
+font-weight: 700;
 }
 body{
     background-color: rgb(185, 179, 179);
+}
+p{
+    font-family: sofia-pro-soft, sans-serif;
+font-style: normal;
+font-weight: 300;
+}
+img{
+    height: 200px;
+    width: auto;
 }
