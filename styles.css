@@ -13,18 +13,26 @@ font-style: normal;
 font-weight: 300;
 }
 img{
-    height: 100px;
+    height: 5vw;
     width: auto;
 }
 nav{
-    background-color: rgb(72, 124, 236);
+    background-color: rgb(171, 218, 186);
    
 }
-
-div{
-    width: 100%;
-    border: dashed 2px white;
-}
-ul{flex: auto;
+ul{
     list-style: none;
+    display: flex;
 }
+li{
+    margin: 0 auto;
+}
+.navItem{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+a:hover{
+    background-color: yellow;
+}
+
