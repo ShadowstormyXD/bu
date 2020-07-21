@@ -1,45 +1,54 @@
 body{
     margin: 0;
-    background-color: rgb(185, 179, 179);
+    background-color: rgb(255, 255, 255);
 }
 
 /* Nav */
 
 nav{
     width: 100vw;
-    background-color: rgb(171, 218, 186);
-   
-
+    background-color: #f56514;
+    border-bottom: solid 1px grey;
+    padding: 2vw;
 }
 ul{
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
-    justify-items: stretch;
+    
+    height: inherit;
 }
-li{ 
+li{ font-family: 'Ubuntu', sans-serif;
     height: inherit;
     margin: 0;
     
 }
 .logoA{
     height: 5vh;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    
 }
 .logoImg {
     height: inherit;
+    border-radius: 100%;
+
+    
 }
 .navItem{
     display: block;
     text-decoration: none;
-    color: black;
+    color: white;
     padding: 2vw ;
+    padding-left: 5vw;
+    padding-right: 5vw;
     height: inherit;
     
 }
 
 .navItem:hover{
-    background-color: royalblue;
+    background-color:#F6752C;
 }
 
 h1{
