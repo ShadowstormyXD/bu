@@ -1,18 +1,59 @@
+body{
+    margin: 0;
+    background-color: rgb(185, 179, 179);
+}
+
+/* Nav */
+
+nav{
+    width: 100vw;
+    background-color: rgb(171, 218, 186);
+   
+
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-items: stretch;
+}
+li{ 
+    height: inherit;
+    margin: 0;
+    
+}
+.logoA{
+    height: 5vh;
+}
+.logoImg {
+    height: inherit;
+}
+.navItem{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 2vw ;
+    height: inherit;
+    
+}
+
+.navItem:hover{
+    background-color: royalblue;
+}
+
 h1{
     color: blue;
     font-family: sofia-pro-soft, sans-serif;
 font-style: normal;
 font-weight: 700;
 }
-body{
-    background-color: rgb(185, 179, 179);
-}
+
 p{
     font-family: sofia-pro-soft, sans-serif;
 font-style: normal;
 font-weight: 300;
 }
-img{
-    height: 200px;
-    width: auto;
-}
+
+
+
