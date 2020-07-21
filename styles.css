@@ -8,35 +8,35 @@ body{
 nav{
     width: 100vw;
     background-color: #f56514;
-    border-bottom: solid 1px grey;
-    padding: 2vw;
+    
+    
 }
-ul{
+ul{ 
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
-    
-    height: inherit;
+    height: 100%;
 }
-li{ font-family: 'Ubuntu', sans-serif;
-    height: inherit;
+li{ 
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
     margin: 0;
-    
 }
-.logoA{
-    height: 5vh;
+.logoLi{
+    height: 100%;
+    align-items: center;
+}
+
+.logoImg {
     padding-right: 5vw;
     padding-left: 5vw;
-    
-}
-.logoImg {
-    height: inherit;
+    height: 5vh;
+    padding: 1vh;
     border-radius: 100%;
-
-    
 }
 .navItem{
+    
     display: block;
     text-decoration: none;
     color: white;
@@ -48,7 +48,7 @@ li{ font-family: 'Ubuntu', sans-serif;
 }
 
 .navItem:hover{
-    background-color:#F6752C;
+    background-color:#f87d36;
 }
 
 h1{
