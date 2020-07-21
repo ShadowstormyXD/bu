@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: rgb(185, 179, 179);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /* Nav */
@@ -21,6 +22,7 @@ ul{
 li{ 
     height: inherit;
     margin: 0;
+    padding:10px;
     
 }
 .logoA{
@@ -28,6 +30,8 @@ li{
 }
 .logoImg {
     height: inherit;
+    border-radius:100%;
+    padding:5px;
 }
 .navItem{
     display: block;
@@ -40,19 +44,27 @@ li{
 
 .navItem:hover{
     background-color: royalblue;
+    border:2px;
+    border-color: black;
 }
 
-h1{
+header h1{
     color: blue;
     font-family: sofia-pro-soft, sans-serif;
 font-style: normal;
 font-weight: 700;
+text-align: center;
 }
 
-p{
+main p{
     font-family: sofia-pro-soft, sans-serif;
 font-style: normal;
 font-weight: 300;
+text-align: center;
+background-color: brown;
+padding:1em;
+margin:10px;
+
 }
 
 
